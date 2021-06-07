@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery.js"></script>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        h2{
+            font-size: 35px;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <h2>动画片</h2>
+    <ul>
+        <li>火影忍者</li>
+        <li>喜羊羊</li>
+        <li>美羊羊</li>
+    </ul>
+    <script>
+        var name="张三"
+        var age=23
+        console.log("world")
+
+        $.ajax({
+            url:'/abc',
+            success:function(dt){
+                console.log(dt)
+            }
+        })
+    </script>
+</body>
+</html>

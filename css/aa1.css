@@ -1,0 +1,145 @@
+h2 {
+  width: 100px;
+  height: 50px;
+}
+h2 p {
+  color: red;
+}
+
+ul {
+  list-style: none;
+}
+ul > li {
+  font-size: 25px;
+}
+
+h2:hover {
+  color: blue;
+}
+
+div {
+  width: 100px;
+}
+div .box1, div #id, div span {
+  color: red;
+}
+
+.li1, .li2, h2 {
+  width: 100px;
+}
+.li1 .span, .li2 .span, h2 .span {
+  color: yellowgreen;
+}
+
+div {
+  border-style: solid;
+  border-color: red;
+  border-width: 5px;
+  background-url: "./imgs/11.jpg";
+  background-size: 100% 100%;
+}
+
+div {
+  border: 5px solid red;
+  border-bottom: none;
+}
+
+/* @mixin radius {
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+} */
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-transition: height 1s 0s linear;
+  -moz-transition: height 1s 0s linear;
+  -ms-transition: height 1s 0s linear;
+  -o-transition: height 1s 0s linear;
+  transition: height 1s 0s linear;
+}
+
+.p1, h2 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+h2 {
+  color: red;
+}
+
+div {
+  width: 100px;
+  border: 1px solid red;
+}
+
+.item-1 {
+  width: 100px;
+}
+
+.item-2 {
+  width: 200px;
+}
+
+.item-3 {
+  width: 300px;
+}
+
+.item-4 {
+  width: 400px;
+}
+
+.class-1 {
+  height: 50px;
+}
+
+.class-2 {
+  height: 100px;
+}
+
+.class-3 {
+  height: 150px;
+}
+
+.class-4 {
+  height: 200px;
+}
+
+.class-5 {
+  height: 250px;
+}
+
+.b1 {
+  background: url(../imgs/11.jpg);
+}
+
+.b2 {
+  background: url(../imgs/22.jpg);
+}
+
+.b3 {
+  background: url(../imgs/33.jpg);
+}
+
+.b4 {
+  background: url(../imgs/44.jpg);
+}
+
+.b5 {
+  background: url(../imgs/55.jpg);
+}
+
+div {
+  width: 1400px;
+}
+
+/*# sourceMappingURL=a1.css.map */
